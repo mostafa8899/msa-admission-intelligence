@@ -1,0 +1,21 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local tools and configuration
+node_modules/
+.env
+.env.*
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+
+# Private inputs stay outside the published repository
+data/
+msa_admissions_v2/
+
+# dist/ is the ready-to-serve website and must remain tracked
